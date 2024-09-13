@@ -18,3 +18,12 @@ It is designed for quick and easy inspection of API documentation in JSON format
 ```bash
 git clone https://github.com/Jr-hackerman/apicon.git
 
+cd apicon
+
+## Usage
+
+python apicon.py -f <path_to_json_file> [-e]
+
+Options:
+-f, --file: Path to the API documentation JSON file (required).
+-e, --endpoints: List all the API endpoints with their respective HTTP methods (optional).
